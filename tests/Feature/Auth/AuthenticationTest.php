@@ -5,6 +5,8 @@ use Illuminate\Support\Facades\RateLimiter;
 use Laravel\Fortify\Features;
 
 test('login screen can be rendered', function () {
+    $this->withoutVite();
+
     $response = $this->get(route('login'));
 
     $response->assertOk();
@@ -14,7 +16,7 @@ test('members can authenticate using the login screen', function () {
     $member = ModelMember::factory()->create();
 
     $response = $this->post(route('login.store'), [
-        'email' => $member->email,
+        'username' => $member->username,
         'password' => 'password',
     ]);
 
@@ -33,7 +35,7 @@ test('members with two factor enabled are redirected to two factor challenge', f
     $member = ModelMember::factory()->withTwoFactor()->create();
 
     $response = $this->post(route('login'), [
-        'email' => $member->email,
+        'username' => $member->username,
         'password' => 'password',
     ]);
 
@@ -46,7 +48,7 @@ test('members can not authenticate with invalid password', function () {
     $member = ModelMember::factory()->create();
 
     $this->post(route('login.store'), [
-        'email' => $member->email,
+        'username' => $member->username,
         'password' => 'wrong-password',
     ]);
 
@@ -66,10 +68,10 @@ test('members can logout', function () {
 test('members are rate limited', function () {
     $member = ModelMember::factory()->create();
 
-    RateLimiter::increment(md5('login'.implode('|', [$member->email, '127.0.0.1'])), amount: 5);
+    RateLimiter::increment(md5('login'.implode('|', [$member->username, '127.0.0.1'])), amount: 5);
 
     $response = $this->post(route('login.store'), [
-        'email' => $member->email,
+        'username' => $member->username,
         'password' => 'wrong-password',
     ]);
 
