@@ -1,0 +1,25 @@
+<?php
+
+namespace {{namespace}}\Http\Controllers;
+
+use App\Http\Controllers\Controller;
+use {{namespace}}\Application\DTOs\{{feature}}DTO;
+use {{namespace}}\Application\UseCases\{{feature}}UseCase;
+use {{namespace}}\Http\Requests\{{feature}}Request;
+use {{namespace}}\Http\Resources\{{feature}}Resource;
+use Illuminate\Http\JsonResponse;
+
+class {{feature}}Controller extends Controller
+{
+    public function __invoke({{feature}}Request $request, {{feature}}UseCase $useCase): JsonResponse
+    {
+        $dto = {{feature}}DTO::from($request);
+        $result = $useCase->execute($dto);
+
+        return response()->json([
+            'success' => true,
+            'message' => 'Berhasil memproses {{feature}}.',
+            'data' => new {{feature}}Resource($result),
+        ]);
+    }
+}

@@ -1,0 +1,23 @@
+<?php
+
+namespace {{namespace}}\Application\Queries;
+
+use {{namespace}}\Infrastructure\Eloquent\Model{{feature}};
+use Illuminate\Database\Eloquent\Builder;
+use Illuminate\Http\Request;
+
+class Get{{feature}}Query
+{
+    public function __construct(
+        //
+    ) {}
+
+    public function execute(?Request $request = null): Builder
+    {
+        $query = Model{{feature}}::query();
+
+        // TODO: Custom filter & sort logic
+
+        return $query;
+    }
+}

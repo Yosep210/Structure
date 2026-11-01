@@ -1,0 +1,19 @@
+<?php
+
+namespace {{namespace}}\Application\UseCases;
+
+use {{namespace}}\Application\DTOs\{{feature}}DTO;
+{{usecaseImports}}
+
+class {{feature}}UseCase
+{
+    public function __construct(
+{{usecaseConstructor}}
+    ) {}
+
+    public function execute({{feature}}DTO $dto): mixed
+    {
+        {{usecaseBody}}
+    }
+}
+

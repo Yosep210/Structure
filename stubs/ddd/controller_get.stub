@@ -1,0 +1,22 @@
+<?php
+
+namespace {{namespace}}\Http\Controllers;
+
+use App\Http\Controllers\Controller;
+use {{namespace}}\Application\UseCases\{{feature}}UseCase;
+use {{namespace}}\Http\Resources\{{feature}}Resource;
+use Illuminate\Http\JsonResponse;
+use Illuminate\Http\Request;
+
+class {{feature}}Controller extends Controller
+{
+    public function __invoke(Request $request, {{feature}}UseCase $useCase): JsonResponse
+    {
+        $result = $useCase->execute($request);
+
+        return response()->json([
+            'success' => true,
+            'data' => {{feature}}Resource::collection($result),
+        ]);
+    }
+}

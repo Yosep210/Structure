@@ -1,0 +1,17 @@
+<?php
+
+use Illuminate\Support\Facades\Route;
+
+/*
+|--------------------------------------------------------------------------
+| {{module}} Module Routes (Web)
+|--------------------------------------------------------------------------
+|
+| Directives and web endpoints for {{module}} module.
+|
+*/
+
+Route::middleware(['web', 'auth'])->group(function () {
+    // Route::get('/{{moduleSlug}}', [{{module}}Controller::class, 'index'])->name('{{moduleSlug}}.index');
+});
+

@@ -1,0 +1,15 @@
+<?php
+
+namespace {{namespace}}\Domain\Services;
+
+class {{feature}}
+{
+    /**
+     * Execute domain business calculation or rule verification.
+     */
+    public function execute(mixed ...$args): mixed
+    {
+        // TODO: Implement domain service business calculation or rule verification
+        return null;
+    }
+}

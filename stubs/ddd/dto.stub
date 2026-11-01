@@ -1,0 +1,12 @@
+<?php
+
+namespace {{namespace}}\Application\DTOs;
+
+use Spatie\LaravelData\Data;
+
+class {{feature}}DTO extends Data
+{
+    public function __construct(
+{{dtoProperties}}
+    ) {}
+}

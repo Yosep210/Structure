@@ -1,0 +1,16 @@
+<?php
+
+namespace {{namespace}}\Http\Responses;
+
+use Illuminate\Contracts\Support\Responsable;
+use Illuminate\Http\Request;
+use Symfony\Component\HttpFoundation\Response;
+
+class {{feature}}Response implements Responsable
+{
+    public function toResponse($request): Response
+    {
+        // TODO: Implement custom response / redirect logic
+        return redirect()->intended('/dashboard');
+    }
+}

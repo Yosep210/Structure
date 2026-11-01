@@ -1,0 +1,36 @@
+<?php
+
+namespace {{namespace}}\Domain\ValueObjects;
+
+use InvalidArgumentException;
+
+readonly class {{feature}}
+{
+    public function __construct(
+        public int|string $value
+    ) {
+        $this->ensureIsValid($this->value);
+    }
+
+    public static function from(int|string $value): self
+    {
+        return new self($value);
+    }
+
+    public static function fromInt(int $value): self
+    {
+        return new self($value);
+    }
+
+    public function equals(self $other): bool
+    {
+        return $this->value === $other->value;
+    }
+
+    private function ensureIsValid(int|string $value): void
+    {
+        if (is_int($value) && $value <= 0) {
+            throw new InvalidArgumentException("Nilai ID [{$value}] tidak valid.");
+        }
+    }
+}

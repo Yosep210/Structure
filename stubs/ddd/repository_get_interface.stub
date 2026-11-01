@@ -1,0 +1,8 @@
+<?php
+
+namespace {{namespace}}\Domain\Interfaces;
+
+interface {{feature}}GetInterface
+{
+    public function findById(int $id): ?object;
+}

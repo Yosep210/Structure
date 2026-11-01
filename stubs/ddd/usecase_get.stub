@@ -1,0 +1,19 @@
+<?php
+
+namespace {{namespace}}\Application\UseCases;
+
+{{usecaseImports}}
+
+class {{feature}}UseCase
+{
+    public function __construct(
+{{usecaseConstructor}}
+    ) {}
+
+    public function execute(mixed $parameter = null): mixed
+    {
+        // TODO: Implement read query retrieval logic
+        return [];
+    }
+}
+

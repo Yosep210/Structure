@@ -1,0 +1,84 @@
+<?php
+
+namespace {{namespace}}\Domain\Exceptions;
+
+use Exception;
+
+class {{feature}} extends Exception
+{
+    protected string $toastType = 'error';
+
+    // --- Helper Dasar ---
+    public static function error(string $message, int $code = 422): self
+    {
+        $instance = new self($message, $code);
+        $instance->toastType = 'error';
+
+        return $instance;
+    }
+
+    public static function warning(string $message, int $code = 422): self
+    {
+        $instance = new self($message, $code);
+        $instance->toastType = 'warning';
+
+        return $instance;
+    }
+
+    public static function info(string $message, int $code = 200): self
+    {
+        $instance = new self($message, $code);
+        $instance->toastType = 'info';
+
+        return $instance;
+    }
+
+    // --- Template Pesan Dinamis ---
+    public static function required(string $field): self
+    {
+        return self::error("{$field} tidak boleh kosong.");
+    }
+
+    public static function tooShort(string $field, int $min): self
+    {
+        return self::error("{$field} minimal harus {$min} karakter.");
+    }
+
+    public static function tooLong(string $field, int $max): self
+    {
+        return self::error("{$field} tidak boleh lebih dari {$max} karakter.");
+    }
+
+    public static function invalid(string $field): self
+    {
+        return self::error("Format {$field} tidak valid.");
+    }
+
+    public static function alreadyExists(string $field, string $value): self
+    {
+        return self::error("{$field} [{$value}] sudah terdaftar di sistem.");
+    }
+
+    public static function notFound(string $entity = 'Data'): self
+    {
+        return self::error("{$entity} tidak ditemukan.");
+    }
+
+    /**
+     * Render the exception as an HTTP response or Inertia Toast.
+     */
+    public function render($request)
+    {
+        if ($request->wantsJson()) {
+            return response()->json([
+                'success' => false,
+                'message' => $this->getMessage(),
+            ], $this->getCode() ?: 422);
+        }
+
+        return redirect()->back()->with('toast', [
+            'type' => $this->toastType,
+            'message' => $this->getMessage(),
+        ]);
+    }
+}

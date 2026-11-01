@@ -1,0 +1,383 @@
+<?php
+
+$lang['agent'] = 'Member';
+$lang['customer'] = 'Customer';
+$lang['company'] = 'Company';
+$lang['morning'] = 'Morning';
+$lang['daylight'] = 'Afternoon';
+$lang['afternoon'] = 'Afternoon';
+$lang['evening'] = 'Evening';
+$lang['daily'] = 'Daily';
+$lang['monthly'] = 'Monthly';
+$lang['male'] = 'Male';
+$lang['female'] = 'Female';
+$lang['single'] = 'Single';
+$lang['married'] = 'Married';
+$lang['coin'] = 'Coin';
+$lang['number'] = 'Number';
+$lang['reference'] = 'Reference';
+$lang['left'] = 'Left';
+$lang['right'] = 'Right';
+$lang['center'] = 'Center';
+$lang['group'] = 'Group';
+$lang['group_left'] = 'Left Group';
+$lang['group_right'] = 'Right Group';
+$lang['add'] = 'Add';
+
+$lang['not_qualified'] = 'NOT QUALIFIED';
+$lang['your_grade'] = 'Your Grade';
+$lang['your_access'] = 'Your Access';
+$lang['grade'] = 'Grade';
+$lang['with_grade'] = 'with grade';
+$lang['active'] = 'Active';
+$lang['not_active'] = 'Not Active';
+$lang['banned'] = 'Banned';
+$lang['access'] = 'Access';
+$lang['type'] = 'Type';
+$lang['amount'] = 'Price';
+$lang['status'] = 'Status';
+$lang['detail'] = 'Detail';
+$lang['point'] = 'Point';
+$lang['years_old'] = 'Years Old';
+$lang['year'] = 'Year';
+$lang['month'] = 'Month';
+$lang['yearmonth'] = 'Month - Year';
+$lang['this_month'] = 'This Month';
+$lang['today'] = 'Today';
+$lang['previous_month'] = 'Previous Month';
+$lang['date'] = 'Date';
+$lang['join_date'] = 'Join Date';
+$lang['active_date'] = 'Active Date';
+$lang['placement_date'] = 'Placement Date';
+$lang['update_date'] = 'Update Date';
+$lang['input_date'] = 'Input Date';
+$lang['create_date'] = 'Create Date';
+$lang['confirm_date'] = 'Confirm Date';
+$lang['execute_date'] = 'Execute Date';
+$lang['transfer_date'] = 'Transfer Date';
+$lang['cancel_date'] = 'Cancel Date';
+$lang['start_date'] = 'Start Date';
+$lang['closing_date'] = 'Closing Date';
+$lang['expired_date'] = 'Expired Date';
+$lang['due_date'] = 'Due Date';
+$lang['send_date'] = 'Send Date';
+$lang['last_date'] = 'Last Date';
+$lang['last_login'] = 'Last Login';
+$lang['join_by'] = 'Registered By';
+$lang['confirm_by'] = 'Confirmed By';
+$lang['cancel_by'] = 'Cancelled By';
+$lang['expired_robot'] = 'Robot Expired';
+$lang['registration_access'] = 'Registration Access';
+$lang['registration_type'] = 'Registration Type';
+$lang['activation_type'] = 'Activation Type';
+$lang['period'] = 'Period';
+$lang['percent'] = 'Percentage';
+$lang['select'] = 'Select';
+$lang['save'] = 'Save';
+$lang['back'] = 'Back';
+$lang['cancel'] = 'Cancel';
+$lang['continue'] = 'Continue';
+$lang['calculate'] = 'Calculate';
+$lang['reset'] = 'Reset';
+$lang['search'] = 'Search';
+$lang['load_data'] = 'Load Data';
+$lang['refresh'] = 'Refresh';
+$lang['create'] = 'Create';
+$lang['edit'] = 'Edit';
+$lang['contact'] = 'Contact';
+$lang['document'] = 'Document';
+$lang['photo'] = 'Foto';
+$lang['otp_code'] = 'OTP Code';
+$lang['password_new'] = 'New Password';
+$lang['password_current'] = 'Current Password';
+$lang['password_confirm'] = 'Password Confirm';
+$lang['password_transaction'] = 'Transaction Password';
+$lang['your_status'] = 'Your Status';
+$lang['referral_code'] = 'Referral Code';
+$lang['robot_code'] = 'Robot Code';
+$lang['package_all'] = 'All Packages';
+$lang['package_name'] = 'Package Name';
+$lang['agree'] = 'Agree';
+$lang['not_agree'] = 'Not Agree';
+$lang['see_more'] = 'See More';
+$lang['description'] = 'Description';
+$lang['export_excel'] = 'Export to Excel';
+$lang['export_date'] = 'Export Date';
+
+$lang['title'] = 'Title';
+$lang['permalink'] = 'Permalink';
+$lang['amount'] = 'Amount';
+$lang['price'] = 'Price';
+$lang['price_cash'] = 'Price Cash';
+$lang['price_credit'] = 'Price Credit';
+$lang['price_highest'] = 'Highest Price';
+$lang['price_coin'] = 'Coin Price';
+$lang['price_agent'] = 'Member Price';
+$lang['price_customer'] = 'Customer Price';
+$lang['area_additional_fees'] = 'Area Additional Fees';
+$lang['fee'] = 'Fee';
+$lang['weight'] = 'Weight';
+$lang['category'] = 'Category';
+$lang['tag'] = 'Tag';
+$lang['image'] = 'Image';
+$lang['select_image'] = 'Select Image';
+$lang['recorded_qty'] = 'Recorded Qty';
+$lang['actual_qty'] = 'Actual Qty';
+$lang['difference_qty'] = 'Difference Qty';
+
+$lang['username'] = 'Username';
+$lang['username_used'] = 'Username Registered';
+$lang['name'] = 'Name';
+$lang['stockist_name'] = 'Stockist Name';
+$lang['fullname'] = 'Full Name';
+$lang['package'] = 'RANK';
+$lang['position'] = 'Position';
+$lang['province'] = 'Province';
+$lang['city'] = 'City';
+$lang['phone'] = 'Phone';
+$lang['tax'] = 'Tax';
+$lang['admin_fund'] = 'Admin Fund';
+$lang['withdraw_amount'] = 'Withdrawal Amount';
+$lang['registrant'] = 'Registrant';
+$lang['owner'] = 'Owner';
+$lang['information'] = 'Information';
+$lang['sender'] = 'Sender';
+$lang['receiver'] = 'Receiver';
+$lang['nominal'] = 'Nominal';
+$lang['before'] = 'Before';
+$lang['after'] = 'After';
+$lang['activator'] = 'Activator';
+$lang['generation'] = 'Generation';
+$lang['actions'] = 'Actions';
+$lang['process'] = 'Process';
+
+$lang['search_member'] = 'Search Member';
+$lang['search_member_username'] = 'Search Member UserID';
+$lang['search_stockist'] = 'Choose Stockist';
+$lang['search_stockist_username'] = 'Search Stockist UserID';
+$lang['my_tree_network'] = 'My Tree Network';
+$lang['member_tree_network'] = 'Member Tree Network';
+$lang['tree_generation'] = 'Tree Generation';
+$lang['list_member_generation'] = 'Member Generation List';
+
+$lang['total'] = 'Total';
+$lang['register'] = 'Register';
+
+// PIN
+$lang['product'] = 'Product';
+$lang['product_name'] = 'Product Name';
+$lang['pin_member'] = 'Product Member';
+$lang['pin_used'] = 'Product Used';
+$lang['pin_data'] = 'Product Data';
+$lang['pin_total'] = 'Total Product';
+$lang['pin_stock'] = 'Total Stock Product';
+$lang['pin_active'] = 'Product Stock';
+$lang['product_save'] = 'Save Product Data';
+$lang['show_order'] = 'Show on product order';
+
+$lang['product_detail'] = 'Product Detail';
+$lang['transfer'] = 'Transfer';
+
+$lang['pin_generate'] = 'Generate Product';
+$lang['pin_generate_form'] = 'Form Generate Product';
+$lang['information_stockist'] = 'Stockist Information';
+$lang['list_stockist'] = 'Stockist List';
+$lang['list_my_product'] = 'List My Product';
+$lang['information_product'] = 'Product Information';
+$lang['my_product'] = 'My Product Data';
+$lang['pin_member'] = 'Product Member';
+$lang['pin_order'] = 'Product Orders';
+$lang['pin_data'] = 'Product Data';
+$lang['stockist_order'] = 'Stockist Orders';
+$lang['member_order'] = 'Member Orders';
+$lang['payment'] = 'Payment Option';
+$lang['payment_method'] = 'Payment Method';
+$lang['shipping'] = 'Shipment';
+$lang['shipping_method'] = 'Shipping Method';
+$lang['shipping_fee'] = 'Shipping Fee';
+$lang['check_shipping_fee'] = 'Check Shipping Fee';
+$lang['handling_fee'] = 'Handling Fee';
+$lang['insurance_fee'] = 'Insurance Fee';
+$lang['courier'] = 'Courier';
+$lang['service'] = 'Service';
+$lang['total_payment'] = 'Total Payment';
+$lang['order_total'] = 'Total Order';
+$lang['transaction_total'] = 'Total Transaction';
+$lang['transaction'] = 'Transaction';
+$lang['number_order'] = 'Order Number';
+$lang['number_delivery'] = 'Shipment Number';
+
+// Code Promo
+$lang['promo_code'] = 'Promo Code';
+$lang['discount'] = 'Discount';
+$lang['discount_type'] = 'Discount Type';
+$lang['discount_agent'] = 'Discount Member';
+$lang['discount_customer'] = 'Discount Customer';
+
+$lang['deposite_saldo'] = 'Saldo Deposite';
+$lang['bonus_saldo'] = 'Saldo Bonus';
+$lang['bonus_in'] = 'Bonus IN';
+$lang['bonus_out'] = 'Bonus Out';
+$lang['bank'] = 'Bank';
+$lang['bank_account'] = 'Rekening';
+$lang['no_rekening'] = 'Bank Account Number';
+$lang['pemilik_rek'] = 'Owner of Bank Account';
+
+$lang['register'] = 'Register';
+$lang['sales'] = 'Sales';
+$lang['member_shopping'] = 'Member Shopping';
+$lang['customer_shopping'] = 'Consumer Shopping';
+$lang['personal_sales'] = 'Personal Sales';
+$lang['my_gasfee'] = 'My CB-Gas Fee';
+$lang['wallet_balance'] = 'Wallet Balance';
+$lang['my_wallet'] = 'My Wallet Balance';
+$lang['my_wallet_usdt'] = 'My Wallet USDT Balance';
+$lang['omzet'] = 'Omzet';
+$lang['last_omzet'] = 'Last Omzet';
+$lang['my_omzet'] = 'My Omzet';
+$lang['my_omzet_bv'] = 'Omzet BV';
+$lang['my_omzet_bv_installment'] = 'Omzet BV Installment';
+$lang['my_omzet_total'] = 'My Total Omzet';
+$lang['omzet_daily'] = 'Daily Omset';
+$lang['omzet_monthly'] = 'Monthly Omset';
+$lang['omzet_pairing'] = 'Pairing Omzet';
+$lang['omzet_input'] = 'Omzet Input';
+$lang['omzet_today'] = 'Omzet Today';
+$lang['omzet_this_month'] = 'Omset This Month';
+$lang['omzet_yesterday'] = 'Omzet Yesterday';
+$lang['omzet_tomorrow'] = 'Omzet Tomorrow';
+$lang['omzet_before'] = 'Omzet Before';
+$lang['omzet_order'] = 'Omzet Order';
+$lang['omzet_posting'] = 'Omzet Posting';
+$lang['omzet_left'] = 'Omzet Left';
+$lang['omzet_right'] = 'Omzet Right';
+$lang['omzet_bv_left'] = 'Omzet BV Left';
+$lang['omzet_bv_right'] = 'Omzet BV Right';
+$lang['omzet_needed'] = 'Omzet Needed';
+$lang['bv_needed'] = 'BV Needed';
+$lang['pairing_history'] = 'Pairing Point History';
+$lang['pairing_qualified'] = 'Pairing Qualified';
+$lang['pairing_current'] = 'Pairing Current';
+$lang['pairing_today'] = 'Pairing Today';
+$lang['pairing_point'] = 'Pairing Point';
+$lang['point_before'] = 'Point Before';
+$lang['point_today'] = 'Point Today';
+$lang['carry_forward'] = 'Carry Forward';
+$lang['point_left'] = 'Point Left';
+$lang['point_right'] = 'Point Right';
+$lang['point_total'] = 'Point Total';
+$lang['last_point'] = 'Last Point';
+
+// SICEPAT PAGE
+$lang['waybill_no'] = 'No Resi';
+$lang['dateused'] = 'Tanggal Pakai';
+$lang['waybill_available'] = 'Available';
+$lang['waybill_used'] = 'Used';
+$lang['pickup_reference_number'] = 'No. Ref';
+$lang['pickup_request_number'] = 'No. Request';
+$lang['pickup_request_date'] = 'Request Date';
+$lang['pickup_method'] = 'Method';
+$lang['pickup_merchant_name'] = 'Merchant Name';
+$lang['pickup_address'] = 'Address';
+$lang['pickup_merchant_phone'] = 'Merchant Phone';
+$lang['pickup_merchant_email'] = 'Merchant Email';
+$lang['datecreated'] = 'Date Request';
+$lang['pickup_detail'] = 'Pickup Detail';
+$lang['origin_code'] = 'Origin Code';
+$lang['delivery_type'] = 'Delivery Type';
+$lang['parcel_category'] = 'Parcel Category';
+$lang['parcel_content'] = 'Parcel Content';
+$lang['parcel_qty'] = 'Parcel Qty';
+$lang['parcel_uom'] = 'Parcel UOM';
+$lang['parcel_value'] = 'Parcel Value';
+$lang['total_weight'] = 'Total Weight';
+$lang['pickup_method_info'] = 'Pickup Info';
+$lang['parcel_info'] = 'Parcel Info';
+$lang['track_info'] = 'Tracking Info';
+
+// SETTING PAGE
+$lang['text_dashboard'] = 'Text Dashboard';
+$lang['running_text'] = 'Running Text';
+$lang['format_notif_email'] = 'Email Notification Format';
+$lang['format_notif_sms'] = 'SMS/WA Notification Format';
+$lang['new_member'] = 'New Member';
+$lang['new_member_reg'] = 'New Member Registration';
+$lang['new_member_spon'] = 'New Member for Sponsor';
+$lang['new_member_spon_reg'] = 'New Member Registration for Sponsor';
+$lang['withdraw'] = 'Withdraw';
+$lang['change_password'] = 'Change Password';
+$lang['cpass_by_admin'] = 'Change Password by Admin';
+$lang['cpass_by_member'] = 'Change Password by Member';
+$lang['cpass_member_by_admin'] = 'Change Password Member by Admin';
+$lang['cpass_member_by_member'] = 'Change Password Member by Member';
+
+$lang['member_active'] = 'Member Active';
+$lang['member_non_active'] = 'Member Non Active';
+$lang['member_stockist'] = 'Stockist Member';
+$lang['member_banned'] = 'Member Banned';
+$lang['member_total'] = 'Total Member';
+$lang['male_member_total'] = 'Total Male Member';
+$lang['female_member_total'] = 'Total Female Member';
+$lang['dowline_total'] = 'Downline Total';
+$lang['dowline_left_total'] = 'Downline Left Total';
+$lang['dowline_right_total'] = 'Downline Right Total';
+$lang['omzet_order'] = 'Omzet Order';
+$lang['omzet_total'] = 'Total Omzet';
+$lang['omzet_bv_today'] = 'Omzet Today';
+$lang['reward_total'] = 'Total Reward';
+$lang['reward_point'] = 'Reward Point';
+$lang['reward_lifestyle_point'] = 'Reward Lifestyle Point';
+$lang['reward_trip_point'] = 'Reward Trip Point';
+$lang['bonus_member'] = 'Member Bonus ';
+$lang['bonus_total'] = 'Bonus Total';
+$lang['bonus_total_member'] = 'Total Bonus Member';
+$lang['point_total'] = 'Point Total';
+$lang['point_total_member'] = 'Total Point Member';
+$lang['history_bonus_member'] = 'History Bonus Member';
+$lang['down_sponsored_total'] = 'Downline Sponsored Total';
+$lang['current_deposite'] = 'Your Deposite';
+$lang['current_pin_active'] = 'Your current active Product';
+
+$lang['member_active'] = 'Member Active';
+$lang['member_stockist'] = 'Member Stokist';
+$lang['member_banned'] = 'Member Banned';
+$lang['member_total'] = 'Total Member';
+
+$lang['report_topup'] = 'Topup Report';
+$lang['report_withdraw'] = 'Withdraw Report';
+$lang['report_historyactivation'] = 'History Aktivation Report';
+$lang['report_history_ro'] = 'History RO Report';
+$lang['report_ewc_total'] = 'eWallet Total Report';
+$lang['report_ewc_detail'] = 'eWallet Detail Report';
+$lang['report_eprofit_total'] = 'Eprofit Total Report';
+$lang['report_eprofit_detail'] = 'Eprofit Detail Report';
+$lang['report_ewalletongkir_total'] = 'EWallet Shipping Report';
+$lang['report_ewalletongkir_detail'] = 'EWallet Shipping Report - Detail';
+$lang['report_produk_order_done'] = 'Sales - Stockist (DONE)';
+
+$lang['profit'] = 'Profit';
+
+$lang['shipping_address'] = 'Shipping Address';
+
+$lang['data_correct'] = 'is the data correct ?';
+
+$lang['ethic_code'] = 'Ethics Code';
+$lang['ethics_code'] = 'Do you agree with the rules listed below ?';
+$lang['ethics_code_agree'] = 'I Agree to the Registration Terms and Conditions.';
+
+$lang['welcome_text'] = '<h6 class="h2 d-block mb-0 text-white">Good %hi% team, <strong>%name%</strong></h6>';
+
+$lang['assumed_text'] = '
+<p class="mb-0" style="font-size: 12px">
+	<i class="fa fa-user-secret mr-2"></i> You are currently logged in as user <strong>%cur_member_name%</strong>.
+	<a href="'.base_url('backend/revert').'" class="font-weight-bold text-white">Back to your account (revert)</a>
+</p>';
+
+$lang['reset_password'] = '
+You\'ve reset the password. Please immediately change your password for security 
+<a href="'.base_url('profile').'" >here</a>.';
+
+$lang['invoice'] = 'Invoice';
+$lang['airwaybill_number'] = 'Airwaybill Number';
+
+/* End of file general_lang.php */

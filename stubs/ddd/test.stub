@@ -1,0 +1,17 @@
+<?php
+
+namespace {{namespace}}\Tests;
+
+use Tests\TestCase;
+use Illuminate\Foundation\Testing\RefreshDatabase;
+
+class {{feature}} extends TestCase
+{
+    use RefreshDatabase;
+
+    public function test_it_can_execute_successfully(): void
+    {
+        // TODO: Implement test logic
+        $this->assertTrue(true);
+    }
+}
